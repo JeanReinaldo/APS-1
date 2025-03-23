@@ -1,115 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-
-        .calculator {
-            border: 2px solid #333;
-            border-radius: 10px;
-            padding: 20px;
-            background-color: white;
-        }
-
-        input {
-            width: 220px;
-            height: 40px;
-            text-align: right;
-            font-size: 20px;
-            margin-bottom: 10px;
-            padding: 5px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        button {
-            width: 50px;
-            height: 50px;
-            font-size: 20px;
-            margin: 5px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            background-color: #f0f0f0;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #ddd;
-        }
-
-        button:active {
-            background-color: #bbb;
-        }
-    </style>
+    <title>Destiny 2: Análise Completa</title>
 </head>
 <body>
+    <header>
+        <h1> Bem-vindo à Análise de Destiny 2 </h1>
+    </header>
 
-    <div class="calculator">
-        <input type="text" id="display" disabled>
-        <br>
-        <button onclick="appendNumber(7)">7</button>
-        <button onclick="appendNumber(8)">8</button>
-        <button onclick="appendNumber(9)">9</button>
-        <button onclick="appendOperator('+')">+</button>
-        <br>
-        <button onclick="appendNumber(4)">4</button>
-        <button onclick="appendNumber(5)">5</button>
-        <button onclick="appendNumber(6)">6</button>
-        <button onclick="appendOperator('-')">-</button>
-        <br>
-        <button onclick="appendNumber(1)">1</button>
-        <button onclick="appendNumber(2)">2</button>
-        <button onclick="appendNumber(3)">3</button>
-        <button onclick="appendOperator('*')">*</button>
-        <br>
-        <button onclick="appendNumber(0)">0</button>
-        <button onclick="clearDisplay()">C</button>
-        <button onclick="calculate()">=</button>
-        <button onclick="appendOperator('/')">/</button>
-    </div>
+ <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="jogabilidade.html">Jogabilidade</a></li>
+            <li><a href="conclusao.html">Conclusão</a></li>
+        </ul>
+    </nav>
 
-    <script>
-        let display = document.getElementById('display');
-        let currentInput = '';
-
-        function appendNumber(number) {
-            currentInput += number;
-            display.value = currentInput;
-        }
-
-        function appendOperator(operator) {
-            if (currentInput !== '') {
-                currentInput += operator;
-                display.value = currentInput;
-            }
-        }
-
-        function clearDisplay() {
-            currentInput = '';
-            display.value = '';
-        }
-
-        function calculate() {
-            try {
-                currentInput = eval(currentInput).toString();
-                display.value = currentInput;
-            } catch (error) {
-                display.value = 'Erro';
-                currentInput = '';
-            }
-        }
-    </script>
-
+ <section>
+        <h2>Introdução ao Destiny 2</h2>
+        <p>Destiny 2 é um jogo de tiro em primeira pessoa (FPS) com elementos de RPG online, criado pela Bungie. Desde o seu lançamento, tem conquistado muitos jogadores ao redor do mundo com seu universo expansivo e mecânicas de jogo cativantes.</p>
+        <p>Aqui, vamos analisar suas principais características e oferecer nossa opinião sobre o jogo.</p>
+    </section>
 </body>
 </html>
