@@ -31,7 +31,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogabilidade - Destiny 2</title>
+    <title> Jogabilidade - Destiny 2</title>
 </head>
 <body>
     <header>
@@ -47,9 +47,9 @@
     </nav>
 
  <section>
-        <h2> O que torna a jogabilidade de Destiny 2 única?</h2>
+        <h2> O que torna a jogabilidade de Destiny 2 única? <h2>
         <p> A jogabilidade de Destiny 2 mistura ação intensa com elementos de RPG. Os jogadores podem personalizar seus personagens, chamados de "Guardians", escolher diferentes classes e habilidades e participar de atividades PvE (Player vs Environment) e PvP (Player vs Player).</p>
-        <p> O sistema de progressão do jogo é envolvente, com loot e missões que mantêm os jogadores motivados. Além disso, as raids e dungeons oferecem desafios que exigem trabalho em equipe e habilidades táticas. </p>
+        <p> O sistema de progressão do jogo é envolvente, com loot e missões que mantêm os jogadores motivados, na maioria das vezes. Além disso, as raids e dungeons oferecem desafios que exigem trabalho em equipe e habilidades táticas. </p>
     </section>
 </body>
 </html>
@@ -59,7 +59,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conclusão - Destiny 2</title>
+    <title>Conclusão - Destiny 2 </title>
 </head>
 <body>
     <header>
